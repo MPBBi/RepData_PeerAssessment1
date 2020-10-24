@@ -267,14 +267,14 @@ Now we will plot the data using type ="l"
 ```r
 par(mfrow=c(2,1))
 plot(WeekdayMean,type="l",
-     main="Weekdays",
+     main="Weekdays - average no. of steps taken per day by interval",
      xlab="Interval",
      ylab="Average no of steps",
      col="darkgoldenrod",
      lwd=1
      )
 plot(WeekendMean,type="l",
-     main="Weekends",
+     main="Weekends - average no. of steps taken per day by interval ",
      xlab="Interval",
      ylab="Average no of steps",
      col="darkgoldenrod",
