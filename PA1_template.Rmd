@@ -146,7 +146,7 @@ dRMsumR <- dataR %>% group_by(date) %>% summarise(TotalSteps=sum(steps))
 hist(dRMsumR$TotalSteps,
      breaks=10,
      xlab="Total Steps taken per day"
-     ,main="Histogram of the total no. of steps taken per day with NA replaced - frequency"
+     ,main="Histogram of the total no. of steps taken per day post inputted data"
      ,col="darkseagreen4")
 
 ```
@@ -209,4 +209,3 @@ plot(WeekendMean,type="l",
      lwd=1
      )
 ```
-

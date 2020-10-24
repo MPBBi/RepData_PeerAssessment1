@@ -210,6 +210,9 @@ hist(dRMsumR$TotalSteps,
 
 ![plot of chunk HistogramR, ](https://raw.githubusercontent.com/MPBBi/RepData_PeerAssessment1/master/figure/HistogramR%2C%20-1.png)
 
+
+You can see that the frequency in some areas have increased after inputting numbers where NAs where before, this was to be expected especially with the chosen method of using the averages as replacement.
+
 Now the mean and median 
 
 ```r
