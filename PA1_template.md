@@ -61,9 +61,7 @@ hist(dRMsum$TotalSteps,
      ,col="aquamarine3")
 ```
 
-
-
-![alternativetext](figure/Histogram, -1.png)
+![plot of chunk Histogram, ](figure/Histogram, -1.png)
 
 Out of interest we are going to do sum the total of steps for each day with a bar plot 
 
@@ -74,9 +72,7 @@ ggplot(dRMsum,aes(x=date,y=TotalSteps,fill=TotalSteps)) +
         labs(title="Total number of steps taken for each day", x="Date",y="Total number of steps")
 ```
 
-
-
-![alternativetext](figure/bar plot, -1.png)
+![plot of chunk bar plot, ](figure/bar plot, -1.png)
 
 ## 2.Mean and median steps per day 
 We are now calculating the mean and meadian of the total no. of steps taken per day 
@@ -142,9 +138,7 @@ plot(dRMmean,type="l",
      )
 ```
 
-
-
-![alternativetext](figure/time series plot-1.png)
+![plot of chunk time series plot](figure/time series plot-1.png)
 
 Out of interest, see the average steps per day 
 
@@ -160,9 +154,7 @@ plot(dRMmeanday,type="l",
      )
 ```
 
-
-
-![alternativetext](figure/time series plot by day-1.png)
+![plot of chunk time series plot by day](figure/time series plot by day-1.png)
 
 ## 4.The 5-minute interval that, on average, contains the maximum number of steps
 We want to know which interval on average had the max number of steps, so we need to use the which.max function 
@@ -216,9 +208,7 @@ hist(dRMsumR$TotalSteps,
      ,col="darkseagreen4")
 ```
 
-
-
-![alternativetext](figure/HistogramR, -1.png)
+![plot of chunk HistogramR, ](figure/HistogramR, -1.png)
 
 Now the mean and median 
 
@@ -292,7 +282,5 @@ plot(WeekendMean,type="l",
      )
 ```
 
-
-
-![alternativetext](figure/time series plot for weekend and weekday-1.png)
+![plot of chunk time series plot for weekend and weekday](figure/time series plot for weekend and weekday-1.png)
 
